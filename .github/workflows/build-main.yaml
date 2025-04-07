@@ -18,15 +18,7 @@ jobs:
                   distribution: 'zulu'
                   java-version: '21'
 
-            - name: Setup Gradle
-              uses: gradle/actions/setup-gradle@v4
-
-            - name: Setup Amper
+            - name: Run Amper
               run: |
-                curl -s https://packages.jetbrains.team/maven/p/amper/amper/org/jetbrains/amper/amper-cli/0.6.0/amper-cli-0.6.0.zip -o amper-cli.zip
-                unzip -q amper-cli.zip
-                chmod +x amper-cli-0.6.0/bin/amper
-                ./amper-cli-0.6.0/bin/amper init
-
-            - name: Gradle Build
-              run: ./gradlew build
+                curl -fsSL -o amper "https://packages.jetbrains.team/maven/p/amper/amper/org/jetbrains/amper/cli/0.6.0/cli-0.6.0-wrapper?download=true" && chmod +x amper
+                ./amper build
