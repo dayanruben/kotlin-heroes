@@ -1,0 +1,41 @@
+# Kotlin Heroes
+
+[![Kotlin](https://img.shields.io/badge/Kotlin-2.1-blue.svg?logo=kotlin)](http://kotlinlang.org)
+[![Gradle](https://img.shields.io/badge/Gradle-8.13-blue?logo=gradle)](https://gradle.org)
+[![Amper](https://img.shields.io/badge/Amper-0.6.0-blue.svg?logo=data:image/svg%2bxml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMzYgMzZINEwyNi4yMTE3IDRIMzUuOTc3OEwzNiAzNlpNMjYuMDY2NiAxOS42MDgzTDIxLjQ0MzkgMjYuMjY4MUgyNi4wNjY2VjE5LjYwODNaIiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXJfMzc3Ml8xNTQpIi8+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJwYWludDBfbGluZWFyXzM3NzJfMTU0IiB4MT0iMTEuODcwMyIgeTE9IjExLjg3NzgiIHgyPSIzNi4yOTAzIiB5Mj0iMzYuMjg3MSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIG9mZnNldD0iMC4yMTIxNyIgc3RvcC1jb2xvcj0iIzNCRUE2MiIvPjxzdG9wIG9mZnNldD0iMC43NTI1NCIgc3RvcC1jb2xvcj0iIzA4N0NGQSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjwvc3ZnPg==)](https://github.com/jetbrains/amper)
+[![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
+[![Build](https://github.com/dayanruben/aoc-kotlin/actions/workflows/build-main.yaml/badge.svg?branch=main)](https://github.com/dayanruben/aoc-kotlin/actions/workflows/build-main.yaml)
+
+![][file:cover]
+
+Welcome to Kotlin Heroes project created by [dayanruben][github].
+
+In this repository, [dayanruben][dayanruben] is about to provide solutions for the puzzles using [Kotlin][kotlin] language.
+
+> [!NOTE]
+>
+> This repository utilizes the [Amper][amper] tool for project configuration,
+> recently [introduced by JetBrains][amper-announcement].
+
+[^kth]:
+[Kotlin Heroes][kth] – competitive programming contest series hosted by [JetBrains][jetbrains]
+in collaboration with [Codeforces][codeforces]. It’s designed to help programmers practice and improve their 
+problem-solving skills using the Kotlin programming language.
+
+[kth]: https://kotlinlang.org/lp/kotlin-heroes/
+
+[github]: https://github.com/dayanruben
+
+[dayanruben]: https://dayanruben.com
+
+[kotlin]: https://kotlinlang.org
+
+[jetbrains]: https://jetbrains.com
+
+[codeforces]: https://codeforces.com
+
+[amper]: https://github.com/dayanruben/amper
+
+[amper-announcement]: https://blog.jetbrains.com/blog/2023/11/09/amper-improving-the-build-tooling-user-experience/
+
+[file:cover]: .github/readme/cover.png
