@@ -34,7 +34,7 @@ problem-solving skills using the Kotlin programming language.
 
 [codeforces]: https://codeforces.com
 
-[amper]: https://github.com/dayanruben/amper
+[amper]: https://github.com/jetbrains/amper
 
 [amper-announcement]: https://blog.jetbrains.com/blog/2023/11/09/amper-improving-the-build-tooling-user-experience/
 
