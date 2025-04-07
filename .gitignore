@@ -1,0 +1,43 @@
+# Gradle files
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Kotlin
+*.kotlin_module
+*.kotlin_metadata
+*.kotlin_builtins
+
+# Local configuration file
+local.properties
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Test files
+# Uncomment if you want to ignore test input/output files
+# test.in
+# test.out
